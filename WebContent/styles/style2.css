@@ -1,0 +1,636 @@
+
+/* --------------------------this is login page ------------------------------------------ */
+
+
+#loginPic{
+   width: 50%;    
+   margin: 50px 0px 0px 0px;
+   padding: 0px 25px 25px 0px; 
+   float: left;
+   height: auto;
+   
+    
+}
+
+#logo1{
+	width: 200px;
+	margin: 0px 0px 20px -11px;
+}
+
+#vEmail,#vPassword{
+     color: red;
+    }
+ #loginForm{
+	   margin: 70px 0px 10px 0px;
+	   float : left;
+       width: 40%; 
+       
+       padding: 0px 0px 0px 1%;
+    }
+
+
+
+.signText{
+    width: 100%;
+    height: 30px;	
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-radius: 5px;
+    margin-right: 5px;
+    border: 2px solid #ccc;
+    
+}
+.loginform-back{
+	background-color : white;
+	float : left;
+	padding : 20px 40px 60px 40px;
+	border-radius : 10px;
+	box-shadow : 0px 0px 10px gray;
+	}
+
+
+#loginImg{
+   width: 600px;
+   height: auto;
+   float: right;
+    margin-bottom: -25px;
+    margin-top:0px;
+}
+
+#signInfont{
+    font-size: 30px;
+     
+}
+ 
+
+#signinButton{
+    background-color : #006d96;
+	color : white ;
+	box-sizing: border-box;
+    padding: 12px 15px 12px 15px;
+    border-radius: 10px;
+	margin : 15px 0px 0px 40px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 110px;
+    opacity: 1;
+}
+#signinButton:hover{
+    opacity: 0.8;
+}
+
+#mTable{
+    width:100%;
+    margin-top: 20px;
+}
+@media screen and (max-width: 1060px){
+#loginPic{
+   margin: 20px 10% 0px 10%;
+	 float : left;
+       width: 80%;
+    
+    
+}
+.loginform-back{
+	width : 80%;
+	margin : 0px 10% 7% 10%;
+	box-sizing: border-box;
+}
+ #loginForm{
+	   margin: 20px 3% 10px 3%;
+	 float : left;
+       width: 94%;
+	   
+    }
+	
+#loginImg {
+    width: 70%;
+    height: auto;
+    box-sizing: border-box;
+    margin-bottom: -45px;
+    float: left;
+    margin-left: 15%;
+	margin-right: 15%;
+}
+.signText{
+    width: 90%;	
+}
+}
+
+
+/* --------------------------this is sign Up page ------------------------------------------ */
+
+#signUpBody{
+    height: auto;
+	border-radius : 10px;
+    background-color : white;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+	box-shadow : 0px 0px 10px gray;
+	
+	
+  
+       
+}
+
+.pageBody{
+   background-image: url("../images/12.jpg");
+    height: auto;
+    width: 100%;
+	float : left;
+    overflow : hidden;
+	background-color : white;
+    
+}
+
+.logText{
+    width: 100%;
+    height: 30px;
+    margin-top: 0px;
+    margin-bottom: 15px;
+    border-radius: 5px;
+    border: 2px solid #ccc;
+     
+    
+}
+.Stext{
+    font-size: 14px;
+    color: #006d96;
+    padding-right: 30px;
+    margin-right: 20px;
+    
+}
+
+#fnameErro,
+#lnameErro, 
+#dateErro, 
+#genderErro, 
+#phoneErro, 
+#emailErro ,
+#pwdErro, 
+#rePwdErro,
+#nicErro,
+#provinceErro,
+#addressErro,
+#memberErro{
+    color: red;
+    text-align: center;
+    font-size: 14px;
+    padding-top: 0px;
+    padding-bottom: 0px;
+    margin-top: 0px;
+    margin-bottom: 0px;
+}
+
+
+#signUpButton{
+    background-color : #006d96;
+	color : white ;
+	box-sizing: border-box;
+    padding: 12px 15px 12px 15px;
+    margin-top: 20px;
+    border-radius: 10px;
+    font-size: 15px;
+    font-weight: bold;
+    width: 100%;
+    opacity: 0.6;
+    float: left;
+	margin-bottom : 20px;
+}
+
+#signUpButton:hover{
+    opacity: 1;
+}
+td.firstinthetable{
+	margin-top : 20px;
+}
+#signUpTable{
+	width : 90%;
+	margin: 0px 5%;
+	}
+ 
+@media only screen and (max-width: 600px) {
+    
+    #signUpBody{
+        width: 90%;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 5px 0px 5px;
+    }
+    
+    #signUpTable{
+        width: 90%;
+		margin-left : 5%;
+         
+       
+        
+    }
+	#cartBtn{
+	box-sizing: border-box;
+    padding: 8px 22px 8px 22px;
+   	font-size : 13px;
+	 }
+
+      
+}
+
+ @media only screen and (min-width: 600px) {
+    #signUpBody{
+        width: 450px;
+        margin-left: auto;
+        margin-right: auto;
+        padding: 0px 5px 0px 5px;
+    }
+     
+} 
+
+/*------------------------------------------------------------------------------------------------------------------------------
+										this is index(dashboard) page
+---------------------------------------------------------------------------------------------------------------------------------*/
+.dash{
+	padding: 3px 15px;
+    float:left;
+    margin : 5px 15px 0px 0px;
+    border: 2px solid #676767;
+    text-decoration : none;
+    color : #0080ff;
+    font-weight : bold;
+    border-radius: 10px;
+    font-size: 20px;
+    
+}
+
+.dash .a{
+	
+    text-decoration : none;
+    
+}
+ 
+/*------------------------------------------------------------------------------------------------------------------------------
+										this is serviceManagement page
+---------------------------------------------------------------------------------------------------------------------------------*/
+
+.toggle.ios, .toggle-on.ios, .toggle-off.ios { 
+	border-radius: 20px; 
+	 
+}
+  .toggle.ios .toggle-handle { 
+  	border-radius: 20px; 
+  	width:65px;
+}
+
+.servicesdiv{
+	width: 50%;
+	float: left;
+	padding-left: 20px;
+	
+	
+}
+
+body.modal-open {
+      
+}
+
+.servicesdiv label{
+	 width: 50%;
+	     
+	
+}
+
+#updateServicebtn{
+	float: left;
+	margin-left: 68%;
+	margin-bottom: 30px;
+	border-radius: 20px; 
+	
+}
+ 
+
+.pageBody1{
+ 
+    height:auto;
+    padding-bottom:30px;
+    padding-right:60px;
+    width: 100%;
+	float : left;
+    overflow : hidden;
+	background-color : white;
+    
+}
+
+#btndiv{
+	height: auto;
+    width: 95%;     
+    float: left;     
+    padding-left: 25px;
+    margin-top: 10px;
+    padding-bottom: 50px;
+}
+.modal-content{
+	width: 100%;     
+    float: left; 
+}
+#clearbtn,
+#deletebtn,
+#updatebtn,
+#addbtn{
+	width: 150px;
+	margin-right: 10px;
+	height:40px;
+}
+
+#panel2{
+	float: left; 
+	width: 100%;
+	margin-bottom: 30px;
+}
+.textDIV{
+	 
+	width: 50%;
+	height: auto;
+	float: left;
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:20px;
+	
+}
+.textDIV1{
+	 
+	width: 50%;   
+	height: auto;
+	float: left; 
+	padding-left: 20px;
+	padding-right: 20px;
+	padding-top:20px;
+    
+}
+#searchdiv{
+	background-color :#fbfbfb;
+	width:100%;
+	margin-bottom:50px;
+	padding-left:20px;
+	padding-right:20px;
+	height: auto;
+	padding-top: 11px;
+	padding-bottom:11px;
+	border-radius: 10px;
+	border: 2px solid #ccc; 
+}
+.searchPhone{
+	 
+	border-radius: 5px;
+    border: 2px solid #ccc;
+    width: 49%;
+    height: 37px;
+    margin-bottom: 20px;
+    margin-right:5px;
+    padding-left:5px;
+    float: left;
+}
+ 
+.searchNIC{
+	 
+	border-radius: 5px;
+    border: 2px solid #ccc;
+    width: 50%;
+    height: 37px;
+    margin-bottom: 20px;
+    margin-left:5px;
+    padding-left:5px;
+    float: left;
+   
+}
+#searchPhonebtn{
+	 
+	width: 100%;
+
+}
+ 
+
+#wrap {
+	margin-top : 10px;	
+	margin-left:30px; 	 
+	height: auto;
+	padding-top:30px;
+	padding-bottom:30px;
+	padding-right:50px;
+	padding-left:50px;
+	width:100%;
+	box-shadow: 0px 2px 3px 2px gray;    
+	background-color: #F4F4F4;   
+	min-width: 450px; 
+	overflow: inherit; 
+      
+         
+}
+ .servicetext{
+	font-size: 14px;
+    color: #006d96;    
+    width:120px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 5px;
+    padding-left: 5px;
+}
+
+ 
+.mText{
+    width: 75%;
+    margin: 5px 0px 20px 0px; 
+    height: 30px;      
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    float: left;
+    
+}
+.servicetext1{
+	font-size: 14px;
+    color: #006d96;  
+    width:120px;
+    float: left;
+    padding-top: 10px;
+    padding-right: 5px;
+    
+}
+#genderdiv{
+	width: 75%;
+    margin: 5px 0px 20px 0px; 
+    height: 30px;   
+    float: left;
+    min-width: 150px;
+    padding-left: 5px;
+}
+.mText1{
+    width: 80%;
+    margin: 5px 0px 20px 0px; 
+    height: 30px;      
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    float: left;
+    
+}
+#back{
+         font-size: 17px; 
+         text-decoration: none;
+         margin-left: 37px;
+     } 
+@media only screen and (max-width: 1326px) {
+.searchPhone{
+	 
+	border-radius: 5px;
+    border: 2px solid #ccc;
+    width: 50%;
+    height: 37px;
+    margin-bottom: 20px;
+    margin-right:0%;
+    padding-left:5px;
+    float: none;
+}
+ 
+.searchNIC{
+	 
+	border-radius: 5px;
+    border: 2px solid #ccc;
+    width: 50%;
+    height: 37px;
+    margin-bottom: 20px;
+    margin-left:0%;
+    padding-left:5px;
+    float: right;
+   
+}
+
+ 
+ 
+.mText{
+    width: 100%;
+       
+}
+
+#genderdiv{
+	width:100%;
+    
+}
+.mText1{
+    width: 100%;
+    
+
+}
+
+@media only screen and (max-width: 940px) {
+
+.searchPhone{
+	 
+	border-radius: 5px;
+    border: 2px solid #ccc;
+    width: 100%;
+    height: 37px;
+    margin-bottom: 20px;
+    margin-right:0px;
+    padding-left:5px;
+    float: none;
+}
+ 
+.searchNIC{
+	 
+	border-radius: 5px;
+    border: 2px solid #ccc;
+    width: 100%;
+    height: 37px;
+    margin-bottom: 20px;
+    margin-left:0px;
+    padding-left:5px;
+    float: none;
+   
+}
+ 
+.textDIV{
+	 
+	width: 100%;
+	height: auto;
+	float: none;
+	padding-left: 20px;
+	padding-right: 20px;
+	 
+	
+}
+.textDIV1{
+	 
+	width: 100%;   
+	height: auto;
+	float: none; 
+	padding-left: 20px;
+	padding-right: 20px;
+    
+}
+.servicetext{
+	font-size: 14px;
+    color: #006d96;    
+    width:100%;
+    float: none;
+    padding-top: 10px;
+    padding-right: 5px;
+}
+.mText{
+    width: 100%;
+    margin: 5px 0px 20px 0px; 
+    height: 30px;      
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    float: none;
+    
+}
+.servicetext1{
+	font-size: 14px;
+    color: #006d96;  
+    width:100%;
+    float: none;
+    padding-top: 10px;
+    padding-right: 5px;
+    
+}
+#genderdiv{
+	width: 100%;
+    margin: 5px 0px 20px 0px; 
+    height: 30px;   
+    float: none;
+    min-width: 150px;
+}
+.mText1{
+    width: 100%;
+    margin: 5px 0px 20px 0px; 
+    height: 30px;      
+    border-radius: 5px;
+    border: 2px solid #ccc;
+    float: none;
+    
+}
+.servicesdiv{
+	width: 100%;
+	float: none;
+	padding-left: 30px;
+	padding-right: 30px;
+	padding-top: 30px;
+	
+	
+}
+#updateServicebtn{
+	float: none;
+	margin-right: 20px;
+	margin-top: 50px;
+	width: 100%;
+	margin-left:0%;
+}
+
+#clearbtn,#deletebtn,#updatebtn,#addbtn{
+	width: 100%;
+	margin-right: 0px;
+	margin-top: 10px;
+	margin-left: -10px;
+}
+  
+
+}
+
